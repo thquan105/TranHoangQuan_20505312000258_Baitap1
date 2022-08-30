@@ -13,8 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
+
         <activity
-            android:name="com.example.myapplication2.MainActivity"
+            android:name="com.example.myapplication2.ActivityLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.myapplication2.ActivityLogin"
+            android:name="com.example.myapplication2.MainActivity"
             android:exported="true">
         </activity>
     </application>
